@@ -1,31 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Swiper from 'react-id-swiper'
-import 'swiper/swiper-bundle.css'
+
+import CoverflowEffect from './components/CoverflowEffect';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <CoverflowEffect>
+        <div></div>
+      </CoverflowEffect>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Swiper>
-          <div>
-            Slide 1
-          </div>
-          <div>
-            Slide 2
-          </div>
-          <div>
-            Slide 3
-          </div>
-          <div>
-            Slide 4
-          </div>
-          <div>
-            Slide 5
-          </div>
-        </Swiper>
-      </header>
+        
+      </header> */}
     </div>
   );
 }
