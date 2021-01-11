@@ -20,13 +20,17 @@ function CoverflowEffect(){
     }
   }
   return (
-    <Swiper {...params}>
-      <div style={{ backgroundImage:'../assets/Lake_mapourika_NZ.jpeg' }} />
-      <div style={{ backgroundImage:'../assets/unsplash-drmakete lab.jpg' }} />
-      <div style={{ backgroundImage:'../assets/unsplash-Noah Cellura.jpg' }} />
-      <div style={{ backgroundImage:'../assets/unsplash-Simon Lemhöfer.jpg' }} />
-      <div style={{ backgroundImage:'../assets/unsplash-Zoltan Tasi.jpg' }} />
-    </Swiper>
+    <div>
+      SWIPER
+      <Swiper {...params}>
+        <div style={{ backgroundImage:'../assets/Lake_mapourika_NZ.jpeg' }} />
+        <div style={{ backgroundImage:'../assets/unsplash-drmakete lab.jpg' }} />
+        <div style={{ backgroundImage:'../assets/unsplash-Noah Cellura.jpg' }} />
+        <div style={{ backgroundImage:'../assets/unsplash-Simon Lemhöfer.jpg' }} />
+        <div style={{ backgroundImage:'../assets/unsplash-Zoltan Tasi.jpg' }} />
+      </Swiper>
+    </div>
+    
   )
 }
 
